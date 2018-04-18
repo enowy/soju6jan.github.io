@@ -4,6 +4,27 @@
 		<link></link>
 		<description></description>
 		<item>
+			<title>21637-SPRD-1007</title>
+			<link>magnet:?xt=urn:btih:80490C72C11FAECBC3AD8281F66236FED86DCC0D</link>
+			<description>21637-SPRD-1007</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>21637-SPRD-1007</showrss:showname>
+		</item>
+		<item>
+			<title>21636-GIRO-021</title>
+			<link>magnet:?xt=urn:btih:8656E97349E576546C76E03C10A247A709C8A5F3</link>
+			<description>21636-GIRO-021</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>21636-GIRO-021</showrss:showname>
+		</item>
+		<item>
+			<title>21635-MEKO-70</title>
+			<link>magnet:?xt=urn:btih:0C44F7F9F1F878B794C2A6BDB1DA120DE35C3295</link>
+			<description>21635-MEKO-70</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>21635-MEKO-70</showrss:showname>
+		</item>
+		<item>
 			<title>21634-MDTM-347</title>
 			<link>magnet:?xt=urn:btih:718B1B7CE4DF4566AB5E03D3456D0C55505C331F</link>
 			<description>21634-MDTM-347</description>
@@ -317,27 +338,6 @@
 			<description>21590-FSTA-016</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>21590-FSTA-016</showrss:showname>
-		</item>
-		<item>
-			<title>21589-SCOP-504</title>
-			<link>magnet:?xt=urn:btih:7314C903553D641328F8405FDD62C5F030543207</link>
-			<description>21589-SCOP-504</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>21589-SCOP-504</showrss:showname>
-		</item>
-		<item>
-			<title>21587-XRW-459</title>
-			<link>magnet:?xt=urn:btih:17C8EE443EDA478248365BC714F8F7EB1BA17C39</link>
-			<description>21587-XRW-459</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>21587-XRW-459</showrss:showname>
-		</item>
-		<item>
-			<title>21588-AMA-015</title>
-			<link>magnet:?xt=urn:btih:67637517BD9216B6923D6297524A03665F9FDEB6</link>
-			<description>21588-AMA-015</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>21588-AMA-015</showrss:showname>
 		</item>
 	</channel>
 </rss>
