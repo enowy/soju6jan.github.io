@@ -4,6 +4,41 @@
 		<link></link>
 		<description></description>
 		<item>
+			<title>6007</title>
+			<link>magnet:?xt=urn:btih:80E6228C40D3B4E064445186A790CF76A2238AA4</link>
+			<description>6007</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>6007</showrss:showname>
+		</item>
+		<item>
+			<title>6006</title>
+			<link>magnet:?xt=urn:btih:AD956052A70A42EA2B35AD4CF077E309342BF56B</link>
+			<description>6006</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>6006</showrss:showname>
+		</item>
+		<item>
+			<title>6004</title>
+			<link>magnet:?xt=urn:btih:971CC651ACEEB6045709CDB5E660341708E5D455</link>
+			<description>6004</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>6004</showrss:showname>
+		</item>
+		<item>
+			<title>6005</title>
+			<link>magnet:?xt=urn:btih:F42D327C72E1580C2267D500333928D6E74FB1AE</link>
+			<description>6005</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>6005</showrss:showname>
+		</item>
+		<item>
+			<title>6003</title>
+			<link>magnet:?xt=urn:btih:E2EB536EA07B49CA7771ABA15991F5A9154CC7B2</link>
+			<description>6003</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>6003</showrss:showname>
+		</item>
+		<item>
 			<title>6002</title>
 			<link>magnet:?xt=urn:btih:EEFC01E5DFE6BBFDF9E2D89C37EB6E9C1149AB0A</link>
 			<description>6002</description>
@@ -135,41 +170,6 @@
 			<description>5984</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>5984</showrss:showname>
-		</item>
-		<item>
-			<title>5983</title>
-			<link>magnet:?xt=urn:btih:A8BB8EC7DAC26737840B495116A4557B701B75A9</link>
-			<description>5983</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>5983</showrss:showname>
-		</item>
-		<item>
-			<title>5982</title>
-			<link>magnet:?xt=urn:btih:8C1D7DFC56D07BE0EAC93469CDABE9B4156A58D4</link>
-			<description>5982</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>5982</showrss:showname>
-		</item>
-		<item>
-			<title>5980</title>
-			<link>magnet:?xt=urn:btih:D701DAF128DACCB7DAADB78C86D3975C0CC72240</link>
-			<description>5980</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>5980</showrss:showname>
-		</item>
-		<item>
-			<title>5981</title>
-			<link>magnet:?xt=urn:btih:7571C0F5159F7DF1F6E5AD21A452321C010F999E</link>
-			<description>5981</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>5981</showrss:showname>
-		</item>
-		<item>
-			<title>5979</title>
-			<link>magnet:?xt=urn:btih:9D941EEB4D7ACA4B6D5AC13487A3281F24FD510F</link>
-			<description>5979</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>5979</showrss:showname>
 		</item>
 	</channel>
 </rss>
