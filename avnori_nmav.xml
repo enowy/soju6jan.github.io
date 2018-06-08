@@ -4,6 +4,34 @@
 		<link></link>
 		<description></description>
 		<item>
+			<title>6196</title>
+			<link>magnet:?xt=urn:btih:6C7DDA896B6D9A8B80321039723EAD2D0FE6575B</link>
+			<description>6196</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>6196</showrss:showname>
+		</item>
+		<item>
+			<title>6195</title>
+			<link>magnet:?xt=urn:btih:336D0C0E24F1AE8CDE8A2CF067B51C4E8375F9B1</link>
+			<description>6195</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>6195</showrss:showname>
+		</item>
+		<item>
+			<title>6194</title>
+			<link>magnet:?xt=urn:btih:BAB212A6226837E17B7B926C53486B9089A4F88B</link>
+			<description>6194</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>6194</showrss:showname>
+		</item>
+		<item>
+			<title>6193</title>
+			<link>magnet:?xt=urn:btih:0E1B833D6E8EF61A1747155A96B21F26A77CC357</link>
+			<description>6193</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>6193</showrss:showname>
+		</item>
+		<item>
 			<title>6192</title>
 			<link>magnet:?xt=urn:btih:DCC5DFD15E914105818D0D6309B33D73094AED28</link>
 			<description>6192</description>
@@ -142,34 +170,6 @@
 			<description>6172</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>6172</showrss:showname>
-		</item>
-		<item>
-			<title>6173</title>
-			<link>magnet:?xt=urn:btih:F61F4ED2FA5156CE910059B5689AE7BC900C14A2</link>
-			<description>6173</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>6173</showrss:showname>
-		</item>
-		<item>
-			<title>6171</title>
-			<link>magnet:?xt=urn:btih:15960910DC19895925BAE20806AC5886FAF03F21</link>
-			<description>6171</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>6171</showrss:showname>
-		</item>
-		<item>
-			<title>6170</title>
-			<link>magnet:?xt=urn:btih:FE1740020157478E7DD4D0F2BD4B9E0A118F5185</link>
-			<description>6170</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>6170</showrss:showname>
-		</item>
-		<item>
-			<title>6169</title>
-			<link>magnet:?xt=urn:btih:18BD2307114CFF14CD5BEEF3B80483B97DF87B1B</link>
-			<description>6169</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>6169</showrss:showname>
 		</item>
 	</channel>
 </rss>
