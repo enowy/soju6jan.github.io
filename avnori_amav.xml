@@ -4,6 +4,48 @@
 		<link></link>
 		<description></description>
 		<item>
+			<title>9000</title>
+			<link>magnet:?xt=urn:btih:91F18A1EA5472F96581D335C1C515C442FFCE19E</link>
+			<description>9000</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>9000</showrss:showname>
+		</item>
+		<item>
+			<title>8999</title>
+			<link>magnet:?xt=urn:btih:0517C797D4F9479538F365D7089E93FDFFD89D78</link>
+			<description>8999</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>8999</showrss:showname>
+		</item>
+		<item>
+			<title>8998-720P</title>
+			<link>magnet:?xt=urn:btih:98674F1A34DD572D956EE8045FE36F96A47A63D5</link>
+			<description>8998-720P</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>8998-720P</showrss:showname>
+		</item>
+		<item>
+			<title>8997</title>
+			<link>magnet:?xt=urn:btih:C646BA9415CDDF4836034771FFD51D1027CB062C</link>
+			<description>8997</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>8997</showrss:showname>
+		</item>
+		<item>
+			<title>8996</title>
+			<link>magnet:?xt=urn:btih:CE38A6A1DDFB888E782CF5CDAC1058480AED5D98</link>
+			<description>8996</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>8996</showrss:showname>
+		</item>
+		<item>
+			<title>8995</title>
+			<link>magnet:?xt=urn:btih:AE9F6FFF6EA66C9312B245DF9CE7C3BBBF5AFAE3</link>
+			<description>8995</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>8995</showrss:showname>
+		</item>
+		<item>
 			<title>8994</title>
 			<link>magnet:?xt=urn:btih:A1A31F5967F3539994F1AD5E583D39CE494EDF1C</link>
 			<description>8994</description>
@@ -128,48 +170,6 @@
 			<description>8977</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>8977</showrss:showname>
-		</item>
-		<item>
-			<title>8976</title>
-			<link>magnet:?xt=urn:btih:0FE2094B6D78165A83C7722D83E9E8490853B96A</link>
-			<description>8976</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>8976</showrss:showname>
-		</item>
-		<item>
-			<title>8975-1080P</title>
-			<link>magnet:?xt=urn:btih:8C5C9358C98DDE5269CFE0520B40AB7FB4254C28</link>
-			<description>8975-1080P</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>8975-1080P</showrss:showname>
-		</item>
-		<item>
-			<title>8974</title>
-			<link>magnet:?xt=urn:btih:9721D2F169D1BC14F6545409EFAFC3748C9B3FD7</link>
-			<description>8974</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>8974</showrss:showname>
-		</item>
-		<item>
-			<title>8973</title>
-			<link>magnet:?xt=urn:btih:7BA16CB0FB2DBC991466775BC547E67D578B372C</link>
-			<description>8973</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>8973</showrss:showname>
-		</item>
-		<item>
-			<title>8972</title>
-			<link>magnet:?xt=urn:btih:E2E162633A812E93F6A42ABCCEDD37E6B5EC84CB</link>
-			<description>8972</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>8972</showrss:showname>
-		</item>
-		<item>
-			<title>8971</title>
-			<link>magnet:?xt=urn:btih:3F04EEB07423FC58893E39CE5F8DEAE0B95916D5</link>
-			<description>8971</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>8971</showrss:showname>
 		</item>
 	</channel>
 </rss>
