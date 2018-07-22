@@ -4,6 +4,41 @@
 		<link></link>
 		<description></description>
 		<item>
+			<title>25413-HND-544</title>
+			<link>magnet:?xt=urn:btih:626C26794560876B16E619C0922CE5163C3EC517</link>
+			<description>25413-HND-544</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>25413-HND-544</showrss:showname>
+		</item>
+		<item>
+			<title>25411-DASD-448</title>
+			<link>magnet:?xt=urn:btih:0C5AE1A4F08114E0586BDC5AB96AC8C708CFE336</link>
+			<description>25411-DASD-448</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>25411-DASD-448</showrss:showname>
+		</item>
+		<item>
+			<title>25412-DASD-447</title>
+			<link>magnet:?xt=urn:btih:C05E7A84A00D9190D086D1AF3E35300931BA5F87</link>
+			<description>25412-DASD-447</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>25412-DASD-447</showrss:showname>
+		</item>
+		<item>
+			<title>25409-DASD-445</title>
+			<link>magnet:?xt=urn:btih:E660D80022D1DCD0696C291E8EC00751D0A3F638</link>
+			<description>25409-DASD-445</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>25409-DASD-445</showrss:showname>
+		</item>
+		<item>
+			<title>25410-DASD-444</title>
+			<link>magnet:?xt=urn:btih:C018DF08A205A5A9500845F040CCE68D257B4786</link>
+			<description>25410-DASD-444</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>25410-DASD-444</showrss:showname>
+		</item>
+		<item>
 			<title>25408-HND-545</title>
 			<link>magnet:?xt=urn:btih:28A0FDAF780FE294DAB08A10DB082585375A21CF</link>
 			<description>25408-HND-545</description>
@@ -303,41 +338,6 @@
 			<description>25366-KAWD-917</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>25366-KAWD-917</showrss:showname>
-		</item>
-		<item>
-			<title>25365-KAWD-914</title>
-			<link>magnet:?xt=urn:btih:3E20F7733680AFDF6157721C8E9FBE007A018F78</link>
-			<description>25365-KAWD-914</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>25365-KAWD-914</showrss:showname>
-		</item>
-		<item>
-			<title>25364-TKI-083</title>
-			<link>magnet:?xt=urn:btih:182F35971040951FD27A7ABE0F94F83AC48A9795</link>
-			<description>25364-TKI-083</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>25364-TKI-083</showrss:showname>
-		</item>
-		<item>
-			<title>25363-KAWD-913</title>
-			<link>magnet:?xt=urn:btih:6156E6C68A684CF3D3502CA73E43D5C8300C1B96</link>
-			<description>25363-KAWD-913</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>25363-KAWD-913</showrss:showname>
-		</item>
-		<item>
-			<title>25361-HND-539</title>
-			<link>magnet:?xt=urn:btih:9B64F786FE42DD68B8C977E3267AE0503FA9DEEA</link>
-			<description>25361-HND-539</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>25361-HND-539</showrss:showname>
-		</item>
-		<item>
-			<title>25362-KAWD-912</title>
-			<link>magnet:?xt=urn:btih:37D6077E4E6FFEB464742B1361D7C9B813A18176</link>
-			<description>25362-KAWD-912</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>25362-KAWD-912</showrss:showname>
 		</item>
 	</channel>
 </rss>
