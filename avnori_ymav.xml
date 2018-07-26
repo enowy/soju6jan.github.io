@@ -4,6 +4,13 @@
 		<link></link>
 		<description></description>
 		<item>
+			<title>25559-AKB-061</title>
+			<link>magnet:?xt=urn:btih:4068CB104E27F6C72F3D54C73634E1D6EB3DA9F1</link>
+			<description>25559-AKB-061</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>25559-AKB-061</showrss:showname>
+		</item>
+		<item>
 			<title>25558-GDHH-112</title>
 			<link>magnet:?xt=urn:btih:085F1801696171DF30525AF528DCACA24964C71B</link>
 			<description>25558-GDHH-112</description>
@@ -331,13 +338,6 @@
 			<description>25513-APAE-058</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>25513-APAE-058</showrss:showname>
-		</item>
-		<item>
-			<title>25514-PXH-009</title>
-			<link>magnet:?xt=urn:btih:B2ACCFD6F92AFF18413C9D57F73315DC11DA70F6</link>
-			<description>25514-PXH-009</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>25514-PXH-009</showrss:showname>
 		</item>
 	</channel>
 </rss>
