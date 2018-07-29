@@ -4,6 +4,41 @@
 		<link></link>
 		<description></description>
 		<item>
+			<title>25684-ABP-758</title>
+			<link>magnet:?xt=urn:btih:B426323ED80D9F3255D1C00E854100E6819AF27F</link>
+			<description>25684-ABP-758</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>25684-ABP-758</showrss:showname>
+		</item>
+		<item>
+			<title>25683-ZEX-352</title>
+			<link>magnet:?xt=urn:btih:94000770BE992DD5F634D3D8CED133FFE0C68C60</link>
+			<description>25683-ZEX-352</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>25683-ZEX-352</showrss:showname>
+		</item>
+		<item>
+			<title>25682-ABP-759</title>
+			<link>magnet:?xt=urn:btih:5228A34D900582CBFCEF2F036C100F8326EC38D4</link>
+			<description>25682-ABP-759</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>25682-ABP-759</showrss:showname>
+		</item>
+		<item>
+			<title>25681-IDBD-786</title>
+			<link>magnet:?xt=urn:btih:BB815573E3B7D5C5B6659324FA5EC41CF16634FE</link>
+			<description>25681-IDBD-786</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>25681-IDBD-786</showrss:showname>
+		</item>
+		<item>
+			<title>25680-IDBD-787</title>
+			<link>magnet:?xt=urn:btih:66B03B0081DA7080716F2397E487CCEE21B2F97B</link>
+			<description>25680-IDBD-787</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>25680-IDBD-787</showrss:showname>
+		</item>
+		<item>
 			<title>25679-WANZ-776</title>
 			<link>magnet:?xt=urn:btih:C5B491966ACF78CB4F40B1D93496142B782CD549</link>
 			<description>25679-WANZ-776</description>
@@ -303,41 +338,6 @@
 			<description>25637-STAR-944</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>25637-STAR-944</showrss:showname>
-		</item>
-		<item>
-			<title>25636-IPX-182</title>
-			<link>magnet:?xt=urn:btih:6FE33A68455FB0CAE80E0BDB766E1CED1C07B598</link>
-			<description>25636-IPX-182</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>25636-IPX-182</showrss:showname>
-		</item>
-		<item>
-			<title>25635-IPX-184</title>
-			<link>magnet:?xt=urn:btih:D5836C378B7B308462E06CFF47470C6CAB09FC0C</link>
-			<description>25635-IPX-184</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>25635-IPX-184</showrss:showname>
-		</item>
-		<item>
-			<title>25634-STAR-946</title>
-			<link>magnet:?xt=urn:btih:C11050BA3ADDDE0F7B1E4AB5E9C3686A6C614222</link>
-			<description>25634-STAR-946</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>25634-STAR-946</showrss:showname>
-		</item>
-		<item>
-			<title>25633-STAR-943</title>
-			<link>magnet:?xt=urn:btih:23D1E341D316E7144489A55E1852C83CEB6F1F88</link>
-			<description>25633-STAR-943</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>25633-STAR-943</showrss:showname>
-		</item>
-		<item>
-			<title>25632-IPX-186</title>
-			<link>magnet:?xt=urn:btih:BE5AB1501CDCA5A283133F3603DBFD14DCBD3A92</link>
-			<description>25632-IPX-186</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>25632-IPX-186</showrss:showname>
 		</item>
 	</channel>
 </rss>
