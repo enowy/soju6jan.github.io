@@ -4,6 +4,13 @@
 		<link></link>
 		<description></description>
 		<item>
+			<title>25924</title>
+			<link>magnet:?xt=urn:btih:3ECC7A5095FF800F2DD8B599DBF8A161FCDC4DF1</link>
+			<description>25924</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>25924</showrss:showname>
+		</item>
+		<item>
 			<title>25923-EKDV-542</title>
 			<link>magnet:?xt=urn:btih:F2FE2CD5F29000F1F592AD5F0B2981EEF58BFC69</link>
 			<description>25923-EKDV-542</description>
@@ -331,13 +338,6 @@
 			<description>25877-KTKZ-027</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>25877-KTKZ-027</showrss:showname>
-		</item>
-		<item>
-			<title>25876-DLIS-002</title>
-			<link>magnet:?xt=urn:btih:7064F22C98721DB247D5DB09FC3B199F013D59F5</link>
-			<description>25876-DLIS-002</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>25876-DLIS-002</showrss:showname>
 		</item>
 	</channel>
 </rss>
