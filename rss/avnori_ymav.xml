@@ -4,6 +4,34 @@
 		<link></link>
 		<description></description>
 		<item>
+			<title>26240-GOAL-006</title>
+			<link>magnet:?xt=urn:btih:544755B49039940A5A5C55C78A319963D7D00801</link>
+			<description>26240-GOAL-006</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>26240-GOAL-006</showrss:showname>
+		</item>
+		<item>
+			<title>26239-GOOD-012</title>
+			<link>magnet:?xt=urn:btih:11A0EF44FC1B2771C1DC32570EBB2BB65B71F007</link>
+			<description>26239-GOOD-012</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>26239-GOOD-012</showrss:showname>
+		</item>
+		<item>
+			<title>26238-YAL-103</title>
+			<link>magnet:?xt=urn:btih:B81B48178317149BD7261587D4C93CA0CCFC67B1</link>
+			<description>26238-YAL-103</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>26238-YAL-103</showrss:showname>
+		</item>
+		<item>
+			<title>26237-YAL-102</title>
+			<link>magnet:?xt=urn:btih:18350A5D1108530C4C08E318163035FEB6C3F961</link>
+			<description>26237-YAL-102</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>26237-YAL-102</showrss:showname>
+		</item>
+		<item>
 			<title>26235-SDNM-158</title>
 			<link>magnet:?xt=urn:btih:56AA20EFC58F4B2956A8E09984624139D122FB69</link>
 			<description>26235-SDNM-158</description>
@@ -310,34 +338,6 @@
 			<description>26193-MIDE-570</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>26193-MIDE-570</showrss:showname>
-		</item>
-		<item>
-			<title>26192-MIDE-572</title>
-			<link>magnet:?xt=urn:btih:F717EC903BA391540AAB8C5F930C723988202D38</link>
-			<description>26192-MIDE-572</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>26192-MIDE-572</showrss:showname>
-		</item>
-		<item>
-			<title>26191-STAR-956</title>
-			<link>magnet:?xt=urn:btih:F54D55B4DE6F452AB7BE71539E8AB04CDFE0164D</link>
-			<description>26191-STAR-956</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>26191-STAR-956</showrss:showname>
-		</item>
-		<item>
-			<title>26190-MIDE-571</title>
-			<link>magnet:?xt=urn:btih:AD0CB4E0AED5C0E6D42DD6EEAB4A20E756348F89</link>
-			<description>26190-MIDE-571</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>26190-MIDE-571</showrss:showname>
-		</item>
-		<item>
-			<title>26189-STAR-953</title>
-			<link>magnet:?xt=urn:btih:EFA700DE19915D27F18335E889E2E6A7BE5AA154</link>
-			<description>26189-STAR-953</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>26189-STAR-953</showrss:showname>
 		</item>
 	</channel>
 </rss>
