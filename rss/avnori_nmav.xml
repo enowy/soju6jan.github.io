@@ -59,47 +59,5 @@
 			<showrss:showid></showrss:showid>
 			<showrss:showname>6920</showrss:showname>
 		</item>
-		<item>
-			<title>6921</title>
-			<link>magnet:?xt=urn:btih:7D1DC263603D8D51DFF583C9F1CAD8F459E25497</link>
-			<description>6921</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>6921</showrss:showname>
-		</item>
-		<item>
-			<title>6918</title>
-			<link>magnet:?xt=urn:btih:A1A1C52AEBCB3413EF701921686AF65E810BF860</link>
-			<description>6918</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>6918</showrss:showname>
-		</item>
-		<item>
-			<title>6919</title>
-			<link>magnet:?xt=urn:btih:4FB466A99F4110ECF2939EB7C3A18D60F4E4EBE0</link>
-			<description>6919</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>6919</showrss:showname>
-		</item>
-		<item>
-			<title>6917</title>
-			<link>magnet:?xt=urn:btih:E7058B4BCCA863E4DF6E95F805583008580FDBAC</link>
-			<description>6917</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>6917</showrss:showname>
-		</item>
-		<item>
-			<title>6916</title>
-			<link>magnet:?xt=urn:btih:75191AC3B816EB9EB88822C825626BD9B4B83C94</link>
-			<description>6916</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>6916</showrss:showname>
-		</item>
-		<item>
-			<title>6914</title>
-			<link>magnet:?xt=urn:btih:125456D604D70D80006B44DB26E3C52F8E53ED8C</link>
-			<description>6914</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>6914</showrss:showname>
-		</item>
 	</channel>
 </rss>
