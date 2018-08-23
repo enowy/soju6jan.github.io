@@ -129,47 +129,5 @@
 			<showrss:showid></showrss:showid>
 			<showrss:showname>9365</showrss:showname>
 		</item>
-		<item>
-			<title>9364</title>
-			<link>magnet:?xt=urn:btih:712EF16AC7C4DD6C0B66E93D8FF56FBAEEE5B443</link>
-			<description>9364</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>9364</showrss:showname>
-		</item>
-		<item>
-			<title>9363</title>
-			<link>magnet:?xt=urn:btih:4E90C594F4F916BC0A50AB1EE7D6EBFD6B006621</link>
-			<description>9363</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>9363</showrss:showname>
-		</item>
-		<item>
-			<title>9362</title>
-			<link>magnet:?xt=urn:btih:A3BAA8DA2446188D1BB6FF0E98D9456DA1B6DDAC</link>
-			<description>9362</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>9362</showrss:showname>
-		</item>
-		<item>
-			<title>9361</title>
-			<link>magnet:?xt=urn:btih:344CD1594ECA78A2F1E021EABBE944432B6307CD</link>
-			<description>9361</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>9361</showrss:showname>
-		</item>
-		<item>
-			<title>9360</title>
-			<link>magnet:?xt=urn:btih:20FA38271442C4C0E4BCE1D8C823CD1255C5BFF3</link>
-			<description>9360</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>9360</showrss:showname>
-		</item>
-		<item>
-			<title>9359</title>
-			<link>magnet:?xt=urn:btih:7A91840B2CD30173AEE38F0FD66F9BA8E1AD8B2F</link>
-			<description>9359</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>9359</showrss:showname>
-		</item>
 	</channel>
 </rss>
