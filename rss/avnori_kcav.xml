@@ -130,13 +130,6 @@
 			<showrss:showname>5375</showrss:showname>
 		</item>
 		<item>
-			<title>5374</title>
-			<link>magnet:?xt=urn:btih:2AC8EA93FE0C75D9A28DDB3C37D2E3719DE7CB4F</link>
-			<description>5374</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>5374</showrss:showname>
-		</item>
-		<item>
 			<title>5373</title>
 			<link>magnet:?xt=urn:btih:F1446C08E3C6687D11B3AFBDD424C8BA4B63AC49</link>
 			<description>5373</description>
@@ -170,6 +163,13 @@
 			<description>5369</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>5369</showrss:showname>
+		</item>
+		<item>
+			<title>5368</title>
+			<link>magnet:?xt=urn:btih:0BC78B865420D5D1B5881F29816309C511A7AC51</link>
+			<description>5368</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>5368</showrss:showname>
 		</item>
 	</channel>
 </rss>
