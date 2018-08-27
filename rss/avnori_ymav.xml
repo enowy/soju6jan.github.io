@@ -4,6 +4,20 @@
 		<link></link>
 		<description></description>
 		<item>
+			<title>26899-LOL-169</title>
+			<link>magnet:?xt=urn:btih:3D7218F6719E29742F53BA3645F67AE220A07441</link>
+			<description>26899-LOL-169</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>26899-LOL-169</showrss:showname>
+		</item>
+		<item>
+			<title>26898-LOL-170</title>
+			<link>magnet:?xt=urn:btih:2B3DA52C8B7139E967C7441AD2812082ECBFA806</link>
+			<description>26898-LOL-170</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>26898-LOL-170</showrss:showname>
+		</item>
+		<item>
 			<title>26897-CUT-036</title>
 			<link>magnet:?xt=urn:btih:CC9BCD2D3736FD889F9CC6B9C7E783F00BAC5E8F</link>
 			<description>26897-CUT-036</description>
@@ -324,20 +338,6 @@
 			<description>26852-KTRA-051</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>26852-KTRA-051</showrss:showname>
-		</item>
-		<item>
-			<title>26851-SVDVD-680</title>
-			<link>magnet:?xt=urn:btih:ECB18751AEDBEA7A59C650339146F2BB99572623</link>
-			<description>26851-SVDVD-680</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>26851-SVDVD-680</showrss:showname>
-		</item>
-		<item>
-			<title>26850-KTRA-052</title>
-			<link>magnet:?xt=urn:btih:62F3F41B112EA70344DE9742006D90F889039789</link>
-			<description>26850-KTRA-052</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>26850-KTRA-052</showrss:showname>
 		</item>
 	</channel>
 </rss>
