@@ -150,5 +150,19 @@
 			<showrss:showid></showrss:showid>
 			<showrss:showname>5388</showrss:showname>
 		</item>
+		<item>
+			<title>5386</title>
+			<link>magnet:?xt=urn:btih:B9C0308775A996F750A4E2DCFDF91E65D0E6A503</link>
+			<description>5386</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>5386</showrss:showname>
+		</item>
+		<item>
+			<title>5385</title>
+			<link>magnet:?xt=urn:btih:118CB41C08FDFEE7FF86F8216ADE88F45C2AD2FE</link>
+			<description>5385</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>5385</showrss:showname>
+		</item>
 	</channel>
 </rss>
