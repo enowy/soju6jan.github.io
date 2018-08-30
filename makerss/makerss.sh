@@ -1,6 +1,6 @@
 #!/bin/sh
-PATH_MAKERSS=/volume1/web/makerss
-PATH_GIT=/volume1/soju6jan/homes/soju6jan/git/soju6jan.github.io
+PATH_MAKERSS=/volume1/
+PATH_GIT=/volume1/
 
 cd $PATH_MAKERSS
 python makerss_main.py
