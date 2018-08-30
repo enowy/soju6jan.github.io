@@ -12,7 +12,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.support.ui import WebDriverWait
 from makerss_main import download
 
-
+### 샘플
 SITE_LIST = [
 	{
 		'TORRENT_SITE_TITLE': 'torrentboza',
@@ -73,7 +73,16 @@ SITE_LIST = [
 		'DOWNLOAD_FILE' : 'ON'
 	},
 ]
-
+###
+SITE_LIST = [
+	{
+		'TORRENT_SITE_TITLE': 'torrentboza',
+		'TORRENT_SITE_URL': 'https://torrentboza.com',
+		'BO_TABLE_LIST': ['ani'],
+		'MAX_PAGE': 1,
+		'XPATH_LIST_TAG'      : '//*[@id="fboardlist"]/div[1]/ul/li[%s]/div[2]/a',
+	},
+]
 
 def GetList(driver, site, cate):
 	# 리스트 생성
@@ -114,7 +123,7 @@ def GetList(driver, site, cate):
 				link_element = WebDriverWait(driver, 10).until(lambda driver: driver.find_elements_by_xpath("//a[starts-with(@href,'magnet')]"))
 				
 				for magnet in link_element:
-					print('URL : %s' % magnet.get_attribute('href')
+					print('URL : %s' % magnet.get_attribute('href'))
 					idx2 = 0
 					# torrentao 에서 magnet이 붙어있다
 					while True:
