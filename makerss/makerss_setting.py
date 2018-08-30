@@ -12,7 +12,8 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.support.ui import WebDriverWait
 from makerss_main import download
 
-### 샘플
+############## 샘플
+"""
 SITE_LIST = [
 	{
 		'TORRENT_SITE_TITLE': 'torrentboza',
@@ -73,7 +74,8 @@ SITE_LIST = [
 		'DOWNLOAD_FILE' : 'ON'
 	},
 ]
-###
+"""
+
 SITE_LIST = [
 	{
 		'TORRENT_SITE_TITLE': 'torrentboza',
@@ -81,8 +83,11 @@ SITE_LIST = [
 		'BO_TABLE_LIST': ['ani'],
 		'MAX_PAGE': 1,
 		'XPATH_LIST_TAG'      : '//*[@id="fboardlist"]/div[1]/ul/li[%s]/div[2]/a',
-	},
+	}
 ]
+
+
+
 
 def GetList(driver, site, cate):
 	# 리스트 생성
@@ -108,6 +113,7 @@ def GetList(driver, site, cate):
 				item['detail_url'] = a.get_attribute('href')
 				indexList.append(item)
 			except:
+				print('NOT BBS : %s' % i)
 				exc_info = sys.exc_info()
 				traceback.print_exception(*exc_info)
 
@@ -115,7 +121,7 @@ def GetList(driver, site, cate):
 	# 세부 페이지에서 링크 추출
 	list = []
 	for item in indexList:
-		print item['detail_url']
+		print ('URL : %s' % item['detail_url'])
 		driver.get(item['detail_url'])
 
 		if 'HOW' not in site:
@@ -123,18 +129,25 @@ def GetList(driver, site, cate):
 				link_element = WebDriverWait(driver, 10).until(lambda driver: driver.find_elements_by_xpath("//a[starts-with(@href,'magnet')]"))
 				
 				for magnet in link_element:
-					print('URL : %s' % magnet.get_attribute('href'))
+					print('HREF : %s' % magnet.get_attribute('href'))
 					idx2 = 0
 					# torrentao 에서 magnet이 붙어있다
 					while True:
 						idx1 = magnet.get_attribute('href').find('magnet:?xt=urn', idx2)
 						idx2 = magnet.get_attribute('href').find('magnet:?xt=urn', idx1+1)
 						if idx2 == -1: idx2 = len(magnet.get_attribute('href'))
+						# 중복검사
 						entity = {}
 						entity['title'] = item['title']
 						entity['link'] = magnet.get_attribute('href')[idx1:idx2]
-						list.append(entity)
-						print('TITLE : %s\nLINK : %s' % (entity['title'], entity['link']))
+						flag = False
+						for tmp in list:
+							if tmp['link'] == entity['link']:
+								flag = True
+								break
+						if flag == False:
+							list.append(entity)
+							print('TITLE : %s\nLINK : %s' % (entity['title'], entity['link']))
 						if idx2 == len(magnet.get_attribute('href')): break
 			except:
 				exc_info = sys.exc_info()
@@ -161,17 +174,16 @@ def GetList(driver, site, cate):
 				tmp = '%s/bbs/download.php' % site['TORRENT_SITE_URL']
 				link_element = WebDriverWait(driver, 10).until(lambda driver: driver.find_elements_by_xpath("//a[starts-with(@href,'%s')]" % tmp))
 				for a_tag in link_element:
-					tmp = a_tag.text
-					tmps = tmp.split()
+					tmp = a_tag.text.replace('\n', ' ').replace('\r', '')
 					flag = False
 					filename = ''
-					for t in tmps:
-						for ext in ['.torrent', '.smi', '.srt', '.ass']:
-							if t.find(ext) != -1:
-								flag = True
-								if ext != '.torrent': filename = t
-								break
-						if flag: break
+					for ext in ['.torrent', '.smi', '.srt', '.ass']:
+						idx = tmp.find(ext)
+						if idx != -1:
+							flag = True
+							if ext != '.torrent': 
+								filename = tmp[:idx + len(ext)]
+							break
 					if flag and filename is not '':
 						print('DOWNLOAD : %s' % filename)
 						download(driver, a_tag.get_attribute('href'), filename)
