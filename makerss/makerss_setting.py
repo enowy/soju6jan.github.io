@@ -147,7 +147,7 @@ def GetList(driver, site, cate):
 								break
 						if flag == False:
 							list.append(entity)
-							print('TITLE : %s\nLINK : %s' % (entity['title'], entity['link']))
+							#print('TITLE : %s\nLINK : %s' % (entity['title'], entity['link']))
 						if idx2 == len(magnet.get_attribute('href')): break
 			except:
 				exc_info = sys.exc_info()

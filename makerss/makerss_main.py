@@ -8,7 +8,7 @@ from makerss_setting import *
 def MakeRssFeed(where, cate, list):
 	str =  '<rss xmlns:showrss=\"http://showrss.info/\" version=\"2.0\">\n'
 	str += '\t<channel>\n'
-	str += '\t\t<title>' + '�䷻Ʈ'.decode('euc-kr') + ' %s - %s</title>\n' % (where, cate)
+	str += '\t\t<title>' + '%s - %s</title>\n' % (where, cate)
 	str += '\t\t<link></link>\n'
 	str += '\t\t<description></description>\n'
 	for item in list:
