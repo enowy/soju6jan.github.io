@@ -21,7 +21,7 @@ def MakeRssFeed(where, cate, list):
 		str += '\t\t</item>\n'
 	str += '\t</channel>\n'
 	str += '</rss>'
-	return str
+	return str.replace('&', '&amp;')
 
 def WriteFile(filename, data ):
 	try:
