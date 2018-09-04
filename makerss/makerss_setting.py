@@ -109,7 +109,7 @@ def GetList(driver, site, cate):
 				#a = WebDriverWait(driver, 3).until(lambda driver: driver.find_element_by_xpath(''))
 				
 				item = {}
-				item['title'] = a.text
+				item['title'] = a.text.replace('&', '&amp;')
 				item['detail_url'] = a.get_attribute('href')
 				indexList.append(item)
 			except:
