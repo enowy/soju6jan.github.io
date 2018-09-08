@@ -4,6 +4,27 @@
 		<link></link>
 		<description></description>
 		<item>
+			<title>7098</title>
+			<link>magnet:?xt=urn:btih:9952850AFE86FEB70668FC64ACFE886ACEC2390A</link>
+			<description>7098</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>7098</showrss:showname>
+		</item>
+		<item>
+			<title>7097</title>
+			<link>magnet:?xt=urn:btih:7387F095A20EA0CD9E358B7056FCA7B41059B2D7</link>
+			<description>7097</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>7097</showrss:showname>
+		</item>
+		<item>
+			<title>7096</title>
+			<link>magnet:?xt=urn:btih:925E7D6467D1FBBBAC81657F50A7B5F4DA5AAC46</link>
+			<description>7096</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>7096</showrss:showname>
+		</item>
+		<item>
 			<title>7095</title>
 			<link>magnet:?xt=urn:btih:E1913282C47DEC2085600AC15799F049BBAAF07C</link>
 			<description>7095</description>
@@ -149,27 +170,6 @@
 			<description>7075</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>7075</showrss:showname>
-		</item>
-		<item>
-			<title>7074</title>
-			<link>magnet:?xt=urn:btih:8EC1754076AE9C4A2AFC06AB97E9445054CB8362</link>
-			<description>7074</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>7074</showrss:showname>
-		</item>
-		<item>
-			<title>7073</title>
-			<link>magnet:?xt=urn:btih:D36BA7D4485B1AB87530332F43E64D8334269135</link>
-			<description>7073</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>7073</showrss:showname>
-		</item>
-		<item>
-			<title>7072</title>
-			<link>magnet:?xt=urn:btih:3CBF0E49B9BCB2513BF98CB0C68AD063973722DB</link>
-			<description>7072</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>7072</showrss:showname>
 		</item>
 	</channel>
 </rss>
