@@ -4,6 +4,34 @@
 		<link></link>
 		<description></description>
 		<item>
+			<title>27697-NASS-906</title>
+			<link>magnet:?xt=urn:btih:ABCAE677FC8C99410E38100849DDC7D2739A1A58</link>
+			<description>27697-NASS-906</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>27697-NASS-906</showrss:showname>
+		</item>
+		<item>
+			<title>27696-NASS-905</title>
+			<link>magnet:?xt=urn:btih:AB50C0399D1AD615B36E2042DEA340742594116F</link>
+			<description>27696-NASS-905</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>27696-NASS-905</showrss:showname>
+		</item>
+		<item>
+			<title>27695-NASS-902</title>
+			<link>magnet:?xt=urn:btih:81EB1B58D4831D0925F717F1B2FE5D7CEF70019E</link>
+			<description>27695-NASS-902</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>27695-NASS-902</showrss:showname>
+		</item>
+		<item>
+			<title>27694-NASS-904</title>
+			<link>magnet:?xt=urn:btih:26B6045E8D5B9F5DF06B9662C3491084E682B501</link>
+			<description>27694-NASS-904</description>
+			<showrss:showid></showrss:showid>
+			<showrss:showname>27694-NASS-904</showrss:showname>
+		</item>
+		<item>
 			<title>27693-JUFD-952</title>
 			<link>magnet:?xt=urn:btih:E15E153E3B97FB64DD9092442EE7E05C6212A70F</link>
 			<description>27693-JUFD-952</description>
@@ -310,34 +338,6 @@
 			<description>27650-DDOB-037</description>
 			<showrss:showid></showrss:showid>
 			<showrss:showname>27650-DDOB-037</showrss:showname>
-		</item>
-		<item>
-			<title>27649-ATOM-346</title>
-			<link>magnet:?xt=urn:btih:694DE2E4E5ADFF6DC2297621EB449D34A2F5C022</link>
-			<description>27649-ATOM-346</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>27649-ATOM-346</showrss:showname>
-		</item>
-		<item>
-			<title>27648-HRD-133</title>
-			<link>magnet:?xt=urn:btih:C58411015CA6091C57FC3BD5105BF9E349BB395F</link>
-			<description>27648-HRD-133</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>27648-HRD-133</showrss:showname>
-		</item>
-		<item>
-			<title>27647-CADV-683</title>
-			<link>magnet:?xt=urn:btih:33E899AF54957E639067DB4BF54CC4EB7503CE58</link>
-			<description>27647-CADV-683</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>27647-CADV-683</showrss:showname>
-		</item>
-		<item>
-			<title>27646-HUNTA-496</title>
-			<link>magnet:?xt=urn:btih:CE8D2190DA8FDC5A9F0BE60BC87B05D77DA8F026</link>
-			<description>27646-HUNTA-496</description>
-			<showrss:showid></showrss:showid>
-			<showrss:showname>27646-HUNTA-496</showrss:showname>
 		</item>
 	</channel>
 </rss>
