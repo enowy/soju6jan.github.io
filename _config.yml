@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://username.github.io"
+url: "http://soju6jan.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -58,3 +58,6 @@ footer-link-col: "#404040"
 # navbar-img: "/img/bgimage.png"
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
+
+remote_theme: daattali/beautiful-jekyll
+
