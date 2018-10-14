@@ -4,11 +4,12 @@ date: 2018-10-14 08:26:28 -0900
 categories: klive
 ---
 
-### Klive Server
+# Klive Server
 Klive Server는 설정된 환경에 맞게 M3U와 EPG 파일을 만들어서 클라이언트에 전송하는 역할을 하며, 주기적으로 파일을 경신한다.
 > 사용환경 : OS에 상관없이 python 2.7이 구동되는 환경이면 작동한다
 
-#### - 소스 다운로드
+***
+## 소스 다운로드
  + git clone
 ````
 soju6jan@soju6jan-ubuntu:~$ git clone https://github.com/soju6jan/Klive.git
@@ -20,7 +21,7 @@ remote: Total 152 (delta 68), reused 108 (delta 39), pack-reused 0
 델타를 알아내는 중: 100% (68/68), 완료.
 연결을 확인하는 중입니다... 완료.
 ````
-
+***
  + lib 폴더 복사
 ````
 soju6jan@soju6jan-ubuntu:~$ cd Klive/
