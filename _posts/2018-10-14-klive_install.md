@@ -90,7 +90,7 @@ config = {
  + 커스텀 설정
    자신만의 채널목록을 수정하려면 USE_CUSTOM 을 ```true```로 설정
 
-   ```python
+   ````python
    USE_CUSTOM				= True
    USE_CUSTOM_SOURCE		= 'custom.txt'
    USE_CUSTOM_SPLIT_CHAR	= ':'
@@ -100,6 +100,7 @@ config = {
    ````
 <br>
  + custom.txt
+
  ````
  #지상파
  KBS|11:1:
@@ -120,10 +121,12 @@ config = {
  OLLEH|453::
  OLLEH|452::
  ````
+
   + 기본형식 : ```[ID]:[채널번호]:[채널이름]```
   + 채널번호와, 채널이름 생략 가능
   + ```#``` 주석처리
   + ```CHANNEL_NUMBER_START``` 채널번호가 없을 때 시작 채널번호
+
 ***
 ## 실행
 ````
