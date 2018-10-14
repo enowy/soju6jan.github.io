@@ -21,15 +21,16 @@ remote: Total 152 (delta 68), reused 108 (delta 39), pack-reused 0
 델타를 알아내는 중: 100% (68/68), 완료.
 연결을 확인하는 중입니다... 완료.
 ````
-***
+
  + lib 폴더 복사
 ````
 soju6jan@soju6jan-ubuntu:~$ cd Klive/
 soju6jan@soju6jan-ubuntu:~/Klive$ mv lib/ klive/
 soju6jan@soju6jan-ubuntu:~/Klive$ cd klive/
 ````
-----
-#### - python 세팅 (이미 설정된 환경이면 패스. 반드시 가상환경을 사용해야 하는건 아님)
+****
+## python 세팅
+ 이미 설정된 환경이면 패스. 반드시 가상환경을 사용해야 하는건 아님
  + pip 설치
 ````
 soju6jan@soju6jan-ubuntu:~/Klive/klive$ sudo apt install python-pip
@@ -41,7 +42,7 @@ soju6jan@soju6jan-ubuntu:~/Klive/klive$ sudo apt install python-pip
   libavdevice-ffmpeg56 libsdl1.2debian linux-headers-4.13.0-36
   linux-headers-4.13.0-36-generic linux-headers-4.13.0-37
 ````
-
+<br><br>
  + 필요 패키지 설치 (virtualenv)
 ````
 soju6jan@soju6jan-ubuntu:~/Klive/klive$ pip install virtualenv
@@ -67,10 +68,10 @@ Collecting flask (from -r requirements.txt (line 1))
   Downloading https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl (91kB)
     100% |████████████████████████████████| 92kB 391kB/s
 ````
-----
+***
 #### - 세팅 수정
  + settings.py 수정
-````
+```python
 config = {
 	'bindAddr':'soju6jan.iptime.org',
     'bindPort': 9801,
@@ -86,7 +87,7 @@ config = {
  + 커스텀 설정
  > 자신만의 채널목록을 수정하려면 USE_CUSTOM 을 ```true```로 설정
 
-   `````
+   ```python
    USE_CUSTOM				= True
    USE_CUSTOM_SOURCE		= 'custom.txt'
    USE_CUSTOM_SPLIT_CHAR	= ':'
@@ -120,13 +121,13 @@ config = {
   + 채널번호와, 채널이름 생략 가능
   + ```#``` 주석처리
   + ```CHANNEL_NUMBER_START``` 채널번호가 없을 때 시작 채널번호
-
-#### - 실행
+***
+#### 실행
 ````
 (venv) soju6jan@soju6jan-ubuntu:~/Klive/klive$ python kliveProxy.py
 ````
-
-#### - 서비스 등록
+***
+#### 서비스 등록
 + kliveProxy.service 수정
 
   ````
