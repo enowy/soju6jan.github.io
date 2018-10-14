@@ -69,7 +69,9 @@ Collecting flask (from -r requirements.txt (line 1))
   Downloading https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl (91kB)
     100% |████████████████████████████████| 92kB 391kB/s
 ````
+
 ***
+
 ## 세팅 수정
  + settings.py 수정
 ```python
@@ -84,11 +86,8 @@ config = {
     'ffmpeg' : 'ffmpeg',
 }
 ````
-<br>
  + 각 사이트 계정정보 입력
-<br>
- + 커스텀 설정
-   자신만의 채널목록을 수정하려면 USE_CUSTOM 을 ```true```로 설정
+ + 커스텀 설정 : 자신만의 채널목록을 적용하려면 USE_CUSTOM 을 ```true```로 설정
 
    ````python
    USE_CUSTOM				= True
@@ -101,31 +100,31 @@ config = {
 <br>
  + custom.txt
 
- ````
- #지상파
- KBS|11:1:
- POOQ|K01:1-1:KBS1(푹)
- KBS|12:2:
- POOQ|K02:2-1:KBS2(푹)
- MBC|01:3:
- POOQ|M01:3-1: MBC(푹)
- SBS|S01:4:
- OLLEH|241:5:
- #
- TVING|C00551:11:
- OLLEH|280:11-2:tvN (올레)
- OKSUSU|872:11-1:tvN (옥수수)
+   ````
+   #지상파
+   KBS|11:1:
+   POOQ|K01:1-1:KBS1(푹)
+   KBS|12:2:
+   POOQ|K02:2-1:KBS2(푹)
+   MBC|01:3:
+   POOQ|M01:3-1: MBC(푹)
+   SBS|S01:4:
+   OLLEH|241:5:
+   #
+   TVING|C00551:11:
+   OLLEH|280:11-2:tvN (올레)
+   OKSUSU|872:11-1:tvN (옥수수)
 
- CHANNEL_NUMBER_START:21
- #PLAY
- OLLEH|453::
- OLLEH|452::
- ````
+   CHANNEL_NUMBER_START:21
+   #PLAY
+   OLLEH|453::
+   OLLEH|452::
+   ````
 
-  + 기본형식 : ```[ID]:[채널번호]:[채널이름]```
-  + 채널번호와, 채널이름 생략 가능
-  + ```#``` 주석처리
-  + ```CHANNEL_NUMBER_START``` 채널번호가 없을 때 시작 채널번호
+   + 기본형식 : ```[ID]:[채널번호]:[채널이름]```
+   + 채널번호와, 채널이름 생략 가능
+   + ```#``` 주석처리
+   + ```CHANNEL_NUMBER_START``` 채널번호가 없을 때 시작 채널번호
 
 ***
 ## 실행
