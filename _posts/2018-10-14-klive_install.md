@@ -68,7 +68,7 @@ Collecting flask (from -r requirements.txt (line 1))
 ````
 ----
 #### - 세팅 수정
- + settings.py
+ + settings.py 수정
 ````
 config = {
 	'bindAddr':'soju6jan.iptime.org',
