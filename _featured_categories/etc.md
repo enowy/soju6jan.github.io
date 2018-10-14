@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Tip
-slug: tip
+title: Etc
+slug: etc
 menu: true
 submenu: false
 order: 4
 description: >
-  여러 팁들을 공유합니다.
+  Etc
 ---
