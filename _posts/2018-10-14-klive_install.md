@@ -27,7 +27,7 @@ soju6jan@soju6jan-ubuntu:~$ cd Klive/
 soju6jan@soju6jan-ubuntu:~/Klive$ mv lib/ klive/
 soju6jan@soju6jan-ubuntu:~/Klive$ cd klive/
 ````
-
+----
 #### - python 세팅 (이미 설정된 환경이면 패스. 반드시 가상환경을 사용해야 하는건 아님)
  + pip 설치
 ````
@@ -66,7 +66,7 @@ Collecting flask (from -r requirements.txt (line 1))
   Downloading https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl (91kB)
     100% |████████████████████████████████| 92kB 391kB/s
 ````
-
+----
 #### - 세팅 수정
  + settings.py
 ````
@@ -85,14 +85,14 @@ config = {
  + 커스텀 설정
  > 자신만의 채널목록을 수정하려면 USE_CUSTOM 을 ```true```로 설정
 
- ```
- USE_CUSTOM				= True
- USE_CUSTOM_SOURCE		= 'custom.txt'
- USE_CUSTOM_SPLIT_CHAR	= ':'
- USE_CUSTOM_REGEX		= '^(?P<channel_id>.*?)%s(?P<channel_number>.*?)%s(?P<channel_name>.*?)$' % (USE_CUSTOM_SPLIT_CHAR, USE_CUSTOM_SPLIT_CHAR)
- USE_CUSTOM_M3U			= 'klive_custom.m3u'
- USE_CUSTOM_EPG			= 'klive_custom.xml'
- ````
+   `````
+   USE_CUSTOM				= True
+   USE_CUSTOM_SOURCE		= 'custom.txt'
+   USE_CUSTOM_SPLIT_CHAR	= ':'
+   USE_CUSTOM_REGEX		= '^(?P<channel_id>.*?)%s(?P<channel_number>.*?)%s(?P<channel_name>.*?)$' % (USE_CUSTOM_SPLIT_CHAR, USE_CUSTOM_SPLIT_CHAR)
+   USE_CUSTOM_M3U			= 'klive_custom.m3u'
+   USE_CUSTOM_EPG			= 'klive_custom.xml'
+   ````
  + custom.txt
  ```
  #지상파
@@ -143,16 +143,16 @@ config = {
   ````
 
 + 서비스 등록 설정
-````
-sudo cp kliveProxy.service /etc/systemd/system/
-sudo systemctl daemon-reload
-sudo systemctl enable kliveProxy.service
-sudo systemctl start kliveProxy.service
-````
+  ````
+  sudo cp kliveProxy.service /etc/systemd/system/
+  sudo systemctl daemon-reload
+  sudo systemctl enable kliveProxy.service
+  sudo systemctl start kliveProxy.service
+  ````
 
 - 서비스 관련 명령
-````
-sudo service kliveProxy stop
-sudo service kliveProxy start
-sudo service kliveProxy restart
-````
+  ````
+  sudo service kliveProxy stop
+  sudo service kliveProxy start
+  sudo service kliveProxy restart
+  ````
