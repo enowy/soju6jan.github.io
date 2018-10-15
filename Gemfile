@@ -1,7 +1,8 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem "github-pages", '163', group: :jekyll_plugins
-
-# enable tzinfo-data for local build
-# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-gem 'jekyll-paginate'
+gem "jekyll", "~> 3.4"
+gem "jekyll-paginate", "~> 1.1"
+gem "jekyll-feed", "~> 0.9"
+gem "jekyll-sitemap", "~> 1.0"
+gem "jekyll-redirect-from", "~> 0.12"
+gem "classifier-reborn"

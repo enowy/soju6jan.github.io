@@ -1,245 +1,129 @@
-# --- General options --- #
+# -----------------------------------------------------------------------------
+#  User configuration
+# -----------------------------------------------------------------------------
 
-# url is the full website URL
-# baseurl is the website's URL without the hostname
+title:               Soju6jan's Blog
 
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://soju6jan.github.io"
-baseurl: ""
+# The unique resource location of your page.
+# Set to `https://<username>.github.io` when hosting on GitHub Pages
+url:                 https://soju6jan.github.io
 
-# If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
+# Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
+# Set to '/<reponame>' when using the `gh-pages` branch of a repository
+baseurl:             ""
 
-# Of course don't forget to change the username and projectname to YOUR username and project
+# A very short description of your page
+tagline:             
 
-# Name of website
-title: 소주6잔
+# A short description of the page, used in the sidebar and as fallback for the meta description tag.
+# Markdown enabled, but don't use more than one paragraph (enforced by `>`)
+description:         >
 
-# Short description of your site
-description: github 설명 블로그 #A virtual proof that name is awesome!
 
-# --- Navigation bar options --- #
-
-# List of links in the navigation bar
-navbar-links:
-  About Me: "aboutme"
-  #Resources:
-  #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-  #  - Learn markdown: "http://www.markdowntutorial.com/"
-  #  - GitHub Pages: "https://pages.github.com/"
-  #Author's home: "http://deanattali.com"
-
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
-
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
-# title-img: /path/to/image
-
-# --- Background colour/image options --- #
-
-# Personalize the colors in your website. Colour values can be any valid CSS colour
-
-navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
-navbar-children-col: "#F5F5F5"
-page-col: "#FFFFFF"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#F5F5F5"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-
-# Alternatively, the navbar, footer, and page background can be set to use background images
-# instead of colour
-
-# navbar-img: "/img/bgimage.png"
-# footer-img: "/img/bgimage.png"
-# page-img: "/img/bgimage.png"
-
-# --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
+# This should be the same author as first entry in `_data/authors.yml`
 author:
-  name: soju6jan
+  name:              soju6jan
+  email:             #cybersol@naver.com
 
-# Select your active Social Network Links.
-# Uncomment the links you want to show in the footer and add your information to each link.
-# You can reorder the items to define the link order.
-# If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
-social-network-links:
-  rss: true
-  email: "cybersol@naver.com"
-  facebook: #daattali
-  github: #daattali
-  twitter: #daattali
-#  reddit: yourname
-#  google-plus: +DeanAttali
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
+# Fallback image and color
+image:               #/assets/img/nap.jpg
+color:               '#4f86aa'
 
-# Select which share links to show in posts
-share-links-active:
-  #twitter: true
-  #facebook: true
-  #google: false
-  #linkedin: true
+# The font used for headings. Expects a string that is a valid CSS font-family value.
+font_heading:        "'Lato', 'Sans-serif'"
 
-# How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+# The text font. Expects a string that is a valid CSS font-family value.
+font:                "'Lato', 'Sans-serif'"
 
-# --- Web Statistics Section --- #
+# The string encoding what fonts to fetch from Google Fonts.
+# See: https://qwtel.com/hydejack/docs/configuration/
+google_fonts:        Lato
 
-# Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+# If you do not use a Google Fonts, uncomment the line below
+# no_google_fonts:     true
 
-# Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+# Set your Google Analytics id to receive `pageview` events.
+# To remove Google Anaylics from your page, remove the line below.
+google_analytics:    UA-92346434-1
 
-# Google Tag Manager ID
-#gtm: ""
+# Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
+disqus_shortname:    
 
-# Matomo (aka Piwik) Web statistics
-# Uncomment the following section to enable Matomo. The opt-out parameter controls
-# whether or not you want to allow users to opt out of tracking.
+# This text will appear in the footer of every page. Markdown enabled.
+copyright:           '&copy; 2018. by soju6jan'
 
-#matomo:
-#  site_id: "9"
-#  uri: "demo.wiki.pro"
-#  opt-out: true
+# Format of the permalinks
+permalink:           pretty
 
-# --- Comments --- #
+# Pagination configuration (used by the `blog` layout)
+paginate:            8
+paginate_path:       '/page-:num/'
 
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
+# If you are upgrading form a v5 verison of Hydejack, uncomment the two lines below,
+# so that the location of the feed XML stays the same.
+# feed:
+#   path:              atom.xml
 
-# To use Facebook Comments, fill in a Facebook App ID
-# fb_comment_id: ""
+# Set to true when building with the `--lsi` option
+# See: https://jekyllrb.com/docs/variables/#site-variables
+# use_lsi:             true
 
-# --- Misc --- #
+# Set to `true` if you don't want to show an icon after each link that opens to an external site
+# no_mark_external:    true
 
-# Facebook App ID
-# fb_app_id: ""
+# Uncomment this line if third party plugins fail to work with dynimically loaded pages
+# disable_push_state:  true
 
-# Excerpt Word Length
-# Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 50
+# Uncomment this line if want to disable the touch drawer on mobile
+# disable_drawer: true
 
-# Character used to separate site title and description in HTML document title
-# and RSS feed title
-title-separator: "-"
+# -----------------------------------------------------------------------------
+#  Collections
+# -----------------------------------------------------------------------------
 
-# --- Don't need to touch anything below here (but you can if you want) --- #
+collections:
+  featured_categories:
+    permalink:       /category/:name/
+    output:          true
+  featured_tags:
+    permalink:       /tag/:name/
+    output:          true
+  projects:
+    permalink:       /projects/:path/
+    output:          true
 
-# Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
-markdown: kramdown
-highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
+# -----------------------------------------------------------------------------
+#  Advanced configuration
+# -----------------------------------------------------------------------------
 
-kramdown:
-  input: GFM
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
 
-# Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # all files
-    values:
-      layout: "page"
-      show-avatar: true
-
-# Use tags index page and make tags on each post clickable
-link-tags: true
-
-# Exclude these files from production site
 exclude:
-  - CHANGELOG.md
-  - CNAME
-  - Dockerfile
+  - README.md
+  - LICENSE.md
+  - node_modules
+  - package.json
+  - package-lock.json
   - Gemfile
   - Gemfile.lock
-  - LICENSE
-  - README.md
-  - Vagrantfile
 
-# prose.io config
-prose:
-  rooturl: '_posts'
-  media: 'img'
+kramdown:
+  footnote_backlink: '&#x21a9;&#xfe0e;'
+  math_engine:       mathjax
+  math_engine_opts:
+    preview:         true
+    preview_as_code: true
+
+compress_html:
+  comments:          ["<!-- ", " -->"]
+  clippings:         all
+  endings:           all
   ignore:
-    - 404.html
-    - LICENSE
-    - feed.xml
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /css
-    - /img
-    - /js
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          help: "Add a thumbnail image to your post."
-          placeholder: "Thumbnail"
-          alterable: true
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
+    envs:            [development]
 
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
+sass:
+  style:             compressed
