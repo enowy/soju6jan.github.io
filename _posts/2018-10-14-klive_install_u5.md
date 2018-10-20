@@ -29,7 +29,7 @@ root@AOL-Debian:~# apt-get install python-all-dev
     if [ -z "$pid" ]; then
     echo "start klive server."
     cd /root/Klive/klive
-    /root/Klive/klive/venv/bin/python /root/Klive/klive/kliveProxy.py &
+    /root/Klive/klive_server/venv/bin/python /root/Klive/klive_server/kliveProxy.py &
     else
     echo "kilve server already running."
     fi
@@ -37,9 +37,8 @@ root@AOL-Debian:~# apt-get install python-all-dev
   ````
 + 서비스 등록
  ````
- root@AOL-Debian:~/Klive/klive# mv kliveProxy.sh /etc/init.d/kliveProxy
- root@AOL-Debian:~/Klive/klive# chmod a+x /etc/init.d/kliveProxy
- root@AOL-Debian:~/Klive/klive# update-rc.d kliveProxy defaults
- root@AOL-Debian:~/Klive/klive# service kliveProxy start
+ root@AOL-Debian:~/Klive/klive_server# mv kliveProxy.sh /etc/init.d/kliveProxy
+ root@AOL-Debian:~/Klive/klive_server# chmod a+x /etc/init.d/kliveProxy
+ root@AOL-Debian:~/Klive/klive_server# update-rc.d kliveProxy defaults
+ root@AOL-Debian:~/Klive/klive_server# service kliveProxy start
  ````
- 

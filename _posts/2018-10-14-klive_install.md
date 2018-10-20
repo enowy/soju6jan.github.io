@@ -25,8 +25,8 @@ remote: Total 152 (delta 68), reused 108 (delta 39), pack-reused 0
  + lib 폴더 복사
 ````
 soju6jan@soju6jan-ubuntu:~$ cd Klive/
-soju6jan@soju6jan-ubuntu:~/Klive$ mv lib/ klive/
-soju6jan@soju6jan-ubuntu:~/Klive$ cd klive/
+soju6jan@soju6jan-ubuntu:~/Klive$ mv lib/ klive_server/
+soju6jan@soju6jan-ubuntu:~/Klive$ cd klive_server/
 ````
 ****
 
@@ -34,7 +34,7 @@ soju6jan@soju6jan-ubuntu:~/Klive$ cd klive/
  이미 설정된 환경이면 패스. 반드시 가상환경을 사용해야 하는건 아님
  + pip 설치
 ````
-soju6jan@soju6jan-ubuntu:~/Klive/klive$ sudo apt install python-pip
+soju6jan@soju6jan-ubuntu:~/Klive/klive_server$ sudo apt install python-pip
 [sudo] password for soju6jan:
 패키지 목록을 읽는 중입니다... 완료
 의존성 트리를 만드는 중입니다
@@ -46,7 +46,7 @@ soju6jan@soju6jan-ubuntu:~/Klive/klive$ sudo apt install python-pip
 <br>
  + 필요 패키지 설치 (virtualenv)
 ````
-soju6jan@soju6jan-ubuntu:~/Klive/klive$ pip install virtualenv
+soju6jan@soju6jan-ubuntu:~/Klive/klive_server$ pip install virtualenv
 Collecting virtualenv
   Downloading https://files.pythonhosted.org/packages/b6/30/96a02b2287098b23b875bc8c2f58071c35d2efe84f747b64d523721dc2b5/virtualenv-16.0.0-py2.py3-none-any.whl (1.9MB)
     100% |████████████████████████████████| 1.9MB 201kB/s
@@ -56,15 +56,15 @@ Successfully installed virtualenv
 <br>
  + 가상환경 세팅
 ````
-soju6jan@soju6jan-ubuntu:~/Klive/klive$ virtualenv venv
-New python executable in /home/soju6jan/Klive/klive/venv/bin/python
+soju6jan@soju6jan-ubuntu:~/Klive/klive_server$ virtualenv venv
+New python executable in /home/soju6jan/Klive/klive_server/venv/bin/python
 Installing setuptools, pip, wheel...done.
-soju6jan@soju6jan-ubuntu:~/Klive/klive$ . venv/bin/activate
+soju6jan@soju6jan-ubuntu:~/Klive/klive_server$ . venv/bin/activate
 ````
 <br>
  + 필요 모듈 설치
 ````
-(venv) soju6jan@soju6jan-ubuntu:~/Klive/klive$ pip install -r requirements.txt
+(venv) soju6jan@soju6jan-ubuntu:~/Klive/klive_server$ pip install -r requirements.txt
 Collecting flask (from -r requirements.txt (line 1))
   Downloading https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl (91kB)
     100% |████████████████████████████████| 92kB 391kB/s
@@ -74,18 +74,11 @@ Collecting flask (from -r requirements.txt (line 1))
 
 ## 세팅 수정
  + settings.py 수정
-```python
-config = {
-	'bindAddr':'soju6jan.iptime.org',
-    'bindPort': 9801,
-	# for plex tvhproxy
-    'tvhURL': 'http://soju6jan:dlgkdbs02!0@192.168.0.15:9981',
-    'tunerCount': 6,
-    'tvhWeight': 300,
-    'streamProfile': 'pass',
-    'ffmpeg' : 'ffmpeg',
-}
+````python
+BIND_ADDR = 'localhost'
+BIND_PORT = 9801
 ````
+
  + 각 사이트 계정정보 입력
  + 커스텀 설정 : 자신만의 채널목록을 적용하려면 USE_CUSTOM 을 ```true```로 설정
 
@@ -131,6 +124,7 @@ config = {
 ````
 (venv) soju6jan@soju6jan-ubuntu:~/Klive/klive$ python kliveProxy.py
 ````
+
 ***
 ## 서비스 등록
 + kliveProxy.service 수정
