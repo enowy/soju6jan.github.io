@@ -2,8 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               Soju6jan's Blog
-
+title:               Soju6jan
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
 url:                 https://soju6jan.github.io
