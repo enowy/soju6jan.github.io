@@ -6,5 +6,5 @@ menu: true
 submenu: true
 order: 6
 description: >
-  Plex
+  Plex에 관련된 글
 ---
