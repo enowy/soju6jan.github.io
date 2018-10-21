@@ -2,8 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               Soju6jan's Blog
-
+title:               Soju6jan
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
 url:                 https://soju6jan.github.io
@@ -22,7 +21,7 @@ description:         >
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              soju6jan
+  name:              #soju6jan
   email:             #cybersol@naver.com
 
 # Fallback image and color
