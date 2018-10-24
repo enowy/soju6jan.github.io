@@ -43,8 +43,8 @@ def WriteFile(filename, data ):
 		print('W22:%s' % e)
 		pass
  
-def download(driver, download_url, filename):
-	print('Injecting retrieval code into web page')
+def download(driver, download_url, filename, path):
+	print('Injecting retrieval code into web page : %s' % download_url)
 	driver.execute_script("""
 	    window.file_contents = null;
 	    var xhr = new XMLHttpRequest();
@@ -73,14 +73,21 @@ def download(driver, download_url, filename):
 	        time.sleep(0.5)
 	print('\tDone')
 
-	print('Writing file to disk')
-	fp = open(filename, 'wb')
+	print('Writing file to disk : %s' % path)
+	if path is not None: filepath = os.path.join(path, filename)
+	else: filepath = filename
+	#print filepath
+	fp = open(filepath, 'wb')
 	fp.write(base64.b64decode(downloaded_file))
 	fp.close()
 	print('\tDone')
 
 
 def GetDriver():
+	#from selenium.webdriver.firefox.options import Options
+	#options = Options()
+	#options.add_argument("--headless")
+	#driver = webdriver.Firefox(firefox_options=options)
 	driver = webdriver.Remote(command_executor='http://127.0.0.1:8910', desired_capabilities=DesiredCapabilities.PHANTOMJS)
 	driver.implicitly_wait(10)
 	return driver
@@ -101,5 +108,11 @@ if __name__ == "__main__":
 	global driver
 	driver = GetDriver()
 	for site in SITE_LIST:
-		Start(site)
+		try:
+			Start(site)
+		except:
+			exc_info = sys.exc_info()
+			traceback.print_exception(*exc_info)
+			print('ERROR : %s' % site['TORRENT_SITE_TITLE'])
 	driver.quit()
+
