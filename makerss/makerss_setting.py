@@ -32,6 +32,12 @@ SITE_LIST = [
 		'DOWNLOAD_FILE' : 'ON',
 		#'DOWNLOAD_PATH' : 'D:\\work\\makerss\\sub'
 	},
+	{
+		'TORRENT_SITE_TITLE': 'torrentboza',
+		'TORRENT_SITE_URL': 'https://torrentboza.com',
+		'BO_TABLE_LIST': ['ero_movie'],
+		'XPATH_LIST_TAG'      : '//*[@id="fboardlist"]/div[1]/ul/li[%s]/div[2]/a',
+	},
 	# 2.Åä·»Æ®¸Ê
 	{
 		'TORRENT_SITE_TITLE': 'torrentmap',
@@ -182,6 +188,22 @@ SITE_LIST = [
 		'SLEEP' : 5,
 		'DOWNLOAD_FILE' : 'ON',
 		#'DOWNLOAD_PATH' : 'D:\\work\\makerss\\sub'
+	},
+	{
+		'TORRENT_SITE_TITLE': 'sspong',
+		'TORRENT_SITE_URL': 'https://sspong.com',
+		'BO_TABLE_LIST': ['to_kor', 'to_jpn', 'to_jpn1'],
+		'XPATH_LIST_TAG'      : '//*[@id="fboardlist"]/div[2]/div[1]/div[%s]/div/div/div/div[2]/div[1]/a',
+		'SLEEP' : 5, 
+		'MAX_PAGE' : 1
+	},
+	{
+		'TORRENT_SITE_TITLE': 'sspong',
+		'TORRENT_SITE_URL': 'https://sspong.com',
+		'BO_TABLE_LIST': ['to_west'],
+		'XPATH_LIST_TAG'      : '//*[@id="fboardlist"]/div[2]/div[1]/div[%s]/div/div/div/div[3]/div[1]/a',
+		'SLEEP' : 5, 
+		'MAX_PAGE' : 1
 	},
 	# 10.Åä·»Æ®¼­Ä¡
 	{
