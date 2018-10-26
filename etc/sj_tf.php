@@ -153,11 +153,8 @@ function download() {
 		$sj_filename = $_GET["sj_filename"];
 		$sj_filetender= $_GET["sj_filetender"];
 	}
-	header("Connection: keep-alive");
-	header("pragma: no-cache");
-	header("expires: 0");
 	header("Content-Disposition: attachment; filename=\"".$sj_filename."\"");
-	header("content-description: php generated data");
+	header("Content-Type: application/octet-stream");
 	$url = $SITE.'/board.php?mode=view&b_id=' . $b_id . '&id=' . $id;
 	$url2 = "http://www.filetender.com".$sj_filetender;
 	$headers = array(
