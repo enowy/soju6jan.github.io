@@ -15,6 +15,10 @@
 전용 파라미터
 	- sj_page	값 : 숫자	생략시 : 1
 		탐색할 최대 페이지 값. 1이면 첫 페이지만, 이외는 지정된 페이지까지.
+
+	- sj_download_mode  값: magnet / torrent		생략시: torrent
+		filetender를 거치지 않고 마그넷을 반환
+		
 사용예) sj_page를 넣지 않을 경우 쿼리가 동일하다
 드라마 720-next 검색시 
 브라우저 주소창 : http://www.tfreeca22.com/board.php?b_id=tdrama&mode=list&sc=720p-next&x=40&y=22
@@ -70,7 +74,8 @@ http://자신의서버주소/tfreeca/sj_tf.php?b_id=tmovie&sj_all=dummy
 $SITE = 'http://www.tfreeca22.com';
 $m = $_GET["sj_mode"];
 if ( $m == 'd' ) {
-	download();
+	if ($_GET["sj_download_mode"] == 'magnet') download_magnet();
+	else download();
 } else {
 	global $SITE;
 	$query = '';
@@ -85,10 +90,14 @@ function make_rss($url){
 	header("Content-Type: application/xml");
 	$ret = "<rss xmlns:showrss=\"http://showrss.info/\" version=\"2.0\"><channel><title></title><link></link><description></description>";
 	$headers = array('Cookie: uuoobe=on;');
+
 	$sj_page = $_GET["sj_page"];
 	if ($sj_page == '') $sj_page = 1;
 	$sj_all_max = $_GET["sj_all_max"];
 	if ($sj_all_max == '') $sj_all_max = 20;
+	$sj_download_mode = $_GET["sj_download_mode"];
+	if ($sj_download_mode == '') $sj_download_mode = 'torrent';
+
 	for($page = 1 ; $page <= $sj_page ; $page++) {
 		$data = get_html($url, $headers);
 		$data = str_replace("</span>","",str_replace("<span class='sc_font'>","",str_replace("stitle1","stitle",str_replace("stitle2","stitle",str_replace("stitle3","stitle",str_replace("stitle4","stitle",str_replace("stitle5","stitle",str_replace("<tr class=\"bgcolor\">","<tr >",$data))))))));
@@ -120,18 +129,18 @@ function make_rss($url){
 					$filename = substr($attachs[$x], strpos($attachs[$x], '>')+1, strpos($attachs[$x] , '<')-strpos($attachs[$x], '>')-1);
 					$l = explode("\"",$attachs[$x])[0];
 					if ( $filename != '' ) {
-						$ret = $ret."<item><title>".$filename."</title><link>http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']."?" . $view . "&sj_mode=d&sj_filename=".$filename."&sj_filetender=".$l."</link><description></description><showrss:showid></showrss:showid><showrss:showname>".$title."</showrss:showname></item>";
+						$ret = $ret."<item><title>".$filename."</title><link>http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']."?" . $view . "&sj_mode=d&sj_download_mode=".$sj_download_mode."&sj_filename=".$filename."&sj_filetender=".$l."</link><description></description><showrss:showid></showrss:showid><showrss:showname>".$title."</showrss:showname></item>";
 					}
 				}
 				$count++;
 				if ($sj_all_max != -1 && $count > $sj_all_max) break;
 			} else if ( $_GET["sj_all"] == 'dummy') {
 				for($idx = 0 ; $idx < 4 ; $idx++) {
-					$ret = $ret."<item><title>".$title."</title><link>http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']."?" . $view . "&sj_mode=d&sj_idx=".$idx."</link><description></description><showrss:showid></showrss:showid><showrss:showname>".$title."</showrss:showname></item>";
+					$ret = $ret."<item><title>".$title."</title><link>http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']."?" . $view . "&sj_mode=d&sj_download_mode=".$sj_download_mode."&sj_idx=".$idx."</link><description></description><showrss:showid></showrss:showid><showrss:showname>".$title."</showrss:showname></item>";
 				}
 			}
 			else {
-				$ret = $ret."<item><title>".$title."</title><link>http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']."?" . $view . "&sj_mode=d"."</link><description></description><showrss:showid></showrss:showid><showrss:showname>".$title."</showrss:showname></item>";
+				$ret = $ret."<item><title>".$title."</title><link>http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']."?" . $view . "&sj_mode=d&sj_download_mode=".$sj_download_mode."</link><description></description><showrss:showid></showrss:showid><showrss:showname>".$title."</showrss:showname></item>";
 			}
 		}
 		if ($sj_all_max != -1 && $count > $sj_all_max) break;
@@ -174,6 +183,16 @@ function download() {
 	echo $data;
 }
 
+function download_magnet() {
+	global $SITE;
+	$url = $SITE.'/torrent_info.php?bo_table=' . $_GET["b_id"] . '&wr_id=' . $_GET["id"];
+	$data = get_html($url,  array());
+	$tmp = explode('a href="magnet', $data);
+	$tmp = explode('"', $tmp[1]);
+	$ret = 'magnet'.$tmp[0];
+	header('Location: '.$ret);
+}
+
 function get_torrent() {
 	global $SITE;
 	$b_id = $_GET["b_id"];
@@ -204,6 +223,8 @@ function get_html($url, $headers) {
 	curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	curl_setopt($ch, CURLOPT_HEADER, 0);
+	curl_setopt($ch, CURLOPT_COOKIEJAR, 'cookies.txt');
+	curl_setopt($ch, CURLOPT_COOKIEFILE, 'cookies.txt');
 	$data = curl_exec($ch);
 	return $data;
 }
